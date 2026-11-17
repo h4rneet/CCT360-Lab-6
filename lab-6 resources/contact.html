@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script type="module" src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<nav class="navbar md:navbar-expand bg-1 fg-2">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Happy Feathers</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+      <div class="drawer-header">
+        <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body">
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+          </li>
+          
+          
+       
+        </ul>
+      </div>
+    </dialog>
+  </div>
+</nav>
+
+
+<body>
+
+    <div class="container mt-3">
+    <form style="max-width: 900px" class="mx-auto">
+<div class="row g-4">
+<div class="md:col-6">
+<div class="form-field">
+<label for="firstName" class="form-label">First name</label>
+<input type="text" class="form-control" id="firstName">
+</div>
+</div>
+<!-- more fields here -->
+
+<div class="md:col-6">
+<div class="form-field">
+<label for="lastName" class="form-label">Last name</label>
+<input type="text" class="form-control" id="lasttName">
+</div>
+</div>
+
+<div class="md:col-6"> 
+<div class="form-field">
+  <label for="emailfield" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="emailfield" placeholder="name@example.com">
+  <div class="form-text">
+    We’ll never share your email with anyone else.
+  </div>
+</div>
+</div>
+
+<div class="md:col-6"> 
+<div class="form-field">
+  <label for="exampleFormControlSelect2" class="form-label">Service Type</label>
+  <select class="form-control" id="exampleFormControlSelect2">
+    <option>Choose one…</option>
+    <option value="1">Bird Sitting</option>
+    <option value="2">Nail Clipping</option>
+    <option value="3">Cage Rentals</option>
+    <option value="3">Medication Administration</option>
+    <option value="3">DNA Testing</option>
+  </select>
+</div>
+</div>
+
+<div class="form-field">
+  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+</div>
+
+<div class="form-field">
+  <input type="checkbox" id="checkLabel" class="check" />
+  <label for="checkLabel">I agree to be contacted</label>
+</div>
+
+
+
+</div>
+<button class="btn-solid theme-primary mt-5">Contact Us</button>
+</form>
+</div>
+
+</body>
+
+ <div class="container-fluid mt-5">
+    <p class="p-3 bg-warning border d-flex justify-content-center">
+        Happy Feathers
+    </p>
+    </div>
+
+</html>

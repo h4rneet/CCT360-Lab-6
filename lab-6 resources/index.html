@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Feathers Bird Sitting</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script type="module" src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar md:navbar-expand bg-1 fg-2">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Happy Feathers</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+      <div class="drawer-header">
+        <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+       
+        </ul>
+      </div>
+    </dialog>
+  </div>
+</nav>
+
+<div class="container mt-5">
+
+    <div id="carouselExample" class="carousel carousel-overlay slide">
+  <div class="carousel-inner rounded-5">
+    <div class="carousel-item active">
+      <img src="images/bird1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/bird2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/bird3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <div class="carousel-overlay-controls">
+    <div>
+      <button class="btn-icon btn-sm btn-subtle theme-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-icon-prev" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="btn-icon btn-sm btn-subtle theme-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-icon-next" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="container mt-5">
+    <h2 class="my-5">Our Services</h2>
+<div class="row g-4">
+<div class="col-12 md:col-6 lg:col-4">
+
+<!-- card 1  -->
+
+<section class="card h-100">
+  <img src="images/bird4.jpeg" class="card-img-top" alt="african gray parrots playing">
+  <div class="card-body d-flex flex-column align-items-center">
+    <h4 class="card-title">Bird Sitting</h4>
+    <p class="card-text">Your bird's home away from home. We offer reliable daily care 
+        while you're away, including routine check-ins and attention to your bird's needs.</p>
+    
+
+
+    <div class="accordion">
+        <details class="accordion-item" name="accordionExample" open>
+            <summary class="accordion-header">
+                What's Included?
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+        <p> Daily out-of-cage time, fresh food and water, interaction based on your bird's usual routine. </p>
+    </div>
+  </details>
+    </div>
+
+    <button type="button" class="btn-solid theme-primary" data-bs-toggle="dialog" data-bs-target="#bookDialog1">
+  Book
+</button>
+
+<dialog class="dialog" id="bookDialog1">
+  <div class="dialog-header">
+    <h1 class="dialog-title">Book Bird Sitting</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+  </div>
+  <div class="dialog-body">
+    <p>Interested in extended bird babysitting? Contact us to discuss details and availability! </p>
+  </div>
+  <div class="dialog-footer">
+    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
+
+  </div>
+</dialog>
+
+  </div>
+</section>
+
+</div>
+
+<!-- card 2 -->
+<div class="col-12 md:col-6 lg:col-4">
+
+
+<section class="card h-100">
+  <img src="images/bird5.jpg" class="card-img-top" alt="bird nail clipping">
+  <div class="card-body d-flex flex-column align-items-center">
+    <h4 class="card-title">Nail Clipping</h4>
+    <p class="card-text">Safe and comfortable nail clipping for your feathered friend. </p>
+    
+
+
+    <div class="accordion">
+  <details class="accordion-item" name="accordionExample1" open>
+    <summary class="accordion-header">
+      What's Included?
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <p> One foot at a time. The full service takes 15-30 minutes. </p>
+    </div>
+  </details>
+    </div>
+
+    <button type="button" class="btn-solid theme-primary" data-bs-toggle="dialog" data-bs-target="#bookDialog2">
+  Book
+</button>
+
+<dialog class="dialog" id="bookDialog2">
+  <div class="dialog-header">
+    <h1 class="dialog-title">Book</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+  </div>
+  <div class="dialog-body">
+    <p>View our calender to pick a time slot. </p>
+  </div>
+  <div class="dialog-footer">
+    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
+    <button type="button" class="btn-solid theme-primary">Save changes</button>
+  </div>
+</dialog>
+
+  </div>
+</section>
+
+</div>
+
+<!-- card 3 -->
+<div class="col-12 md:col-6 lg:col-4">
+
+<section class="card h-100">
+  <img src="images/bird6.jpg" class="card-img-top" alt="cute bird pair">
+  <div class="card-body d-flex flex-column align-items-center">
+    <h4 class="card-title">DNA Testing</h4>
+    <p class="card-text">Parrots tend to look identical, so a test can help confirm your bird's gender.</p>
+    
+
+
+    <div class="accordion">
+  <details class="accordion-item" name="accordionExample2" open>
+    <summary class="accordion-header">
+      What's Included?
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <p> We take a drop of blood, send it to a certified lab, and the results come back in 2-3 weeks.</p>
+    </div>
+  </details>
+    </div>
+
+    <button type="button" class="btn-solid theme-primary" data-bs-toggle="dialog" data-bs-target="#bookDialog3">
+  Book
+</button>
+
+<dialog class="dialog" id="bookDialog3">
+  <div class="dialog-header">
+    <h1 class="dialog-title">Book</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+  </div>
+  <div class="dialog-body">
+    <p>View our calender to pick a time slot.</p>
+  </div>
+  <div class="dialog-footer">
+    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
+    <button type="button" class="btn-solid theme-primary">Save changes</button>
+  </div>
+</dialog>
+
+  </div>
+</section>
+
+</div>
+
+<!-- card 4 -->
+<div class="col-12 md:col-6 lg:col-4">
+
+<section class="card h-100">
+  <img src="images/bird7.jpeg" class="card-img-top" alt="bird getting medication">
+  <div class="card-body d-flex flex-column align-items-center">
+    <h4 class="card-title">Medication Administration</h4>
+    <p class="card-text">Oral medication administered as prescribed by your vet.</p>
+    
+
+
+    <div class="accordion">
+  <details class="accordion-item" name="accordionExample3" open>
+    <summary class="accordion-header">
+      What's Included?
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <p> You can bring your medicine and we will gently administer it, as per your bird's needs.</p>
+    </div>
+  </details>
+    </div>
+
+    <button type="button" class="btn-solid theme-primary" data-bs-toggle="dialog" data-bs-target="#bookDialog4">
+  Book
+</button>
+
+<dialog class="dialog" id="bookDialog4">
+  <div class="dialog-header">
+    <h1 class="dialog-title">Book</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+  </div>
+  <div class="dialog-body">
+    <p>View our calender to pick a time slot.</p>
+  </div>
+  <div class="dialog-footer">
+    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
+    <button type="button" class="btn-solid theme-primary">Save changes</button>
+  </div>
+</dialog>
+
+  </div>
+</section>
+</div>
+
+<!-- card 5 -->
+<div class="col-12 md:col-6 lg:col-4">
+
+<section class="card h-100">
+  <img src="images/bird7.jpg" class="card-img-top" alt="two birds in cage">
+  <div class="card-body d-flex flex-column align-items-center">
+    <h4 class="card-title">Cage Rentals</h4>
+    <p class="card-text">Rent a cage for your bird's stay if you cannot bring your own.</p>
+    
+
+
+    <div class="accordion">
+  <details class="accordion-item" name="accordionExample4" open>
+    <summary class="accordion-header">
+      What's Included?
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <p> We have small, medium, and large cages to choose from.</p>
+    </div>
+  </details>
+    </div>
+
+    <button type="button" class="btn-solid theme-primary" data-bs-toggle="dialog" data-bs-target="#bookDialog5">
+  Book
+</button>
+
+<dialog class="dialog" id="bookDialog5">
+  <div class="dialog-header">
+    <h1 class="dialog-title">Book</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+  </div>
+  <div class="dialog-body">
+    <p>Contact us for more information</p>
+  </div>
+  <div class="dialog-footer">
+    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
+    <button type="button" class="btn-solid theme-primary">Save changes</button>
+  </div>
+</dialog>
+
+  </div>
+</section>
+</div>
+
+<!-- card 6 -->
+<div class="col-12 md:col-6 lg:col-4">
+
+<section class="card h-100">
+  <img src="images/bird8.jpg" class="card-img-top" alt="cockatiel">
+  <div class="card-body d-flex flex-column align-items-center">
+    <h4 class="card-title">Birds We Board</h4>
+    <p class="card-text">View the variety of species of birds we service here.</p>
+    
+
+
+    <div class="accordion">
+  <details class="accordion-item" name="accordionExample5" open>
+    <summary class="accordion-header">
+      What's Included?
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      <p> We take care of birds and parrots of all shapes and sizes! </p>
+    </div>
+  </details>
+    </div>
+
+    <button type="button" class="btn-solid theme-primary" data-bs-toggle="dialog" data-bs-target="#bookDialog5">
+  Book
+</button>
+
+<dialog class="dialog" id="bookDialog5">
+  <div class="dialog-header">
+    <h1 class="dialog-title">Book</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+  </div>
+  <div class="dialog-body">
+    <p>Contact us for more information</p>
+  </div>
+  <div class="dialog-footer">
+    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
+    <button type="button" class="btn-solid theme-primary">Save changes</button>
+  </div>
+</dialog>
+
+  </div>
+</section>
+</div>
+
+<div class="container-fluid mt-5">
+    <p class="p-3 bg-warning border d-flex justify-content-center">
+        Happy Feathers
+    </p>
+</div>
+
+
+
+
+
+    
+</body>
+</html>

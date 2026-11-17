@@ -1,0 +1,13 @@
+:root {
+--bs-primary-bg: #7a7049;
+--bs-primary-fg: #f3e9e0;
+--bs-primary-fg-emphasis: #ebf7a0;
+--bs-primary-border: #bdae9a;
+--bs-primary-focus-ring: #e3ecca;
+--bs-primary-contrast: #ffffff;
+}
+.btn-solid.theme-primary {
+--bs-theme-bg: #61442b;
+--bs-theme-border: #e3b993;
+--bs-theme-contrast: #ffffff;
+}
